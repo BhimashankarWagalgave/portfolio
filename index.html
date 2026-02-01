@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bhimashankar_Wagalgave</title>
-  <link rel="stylesheet" href="\public\styles\index.css" />
+  <link rel="stylesheet" href="/public/styles/index.css" />
 </head>
 <body>
   <header>
     <div>
-      <img src="\public\images\BW.png" width="150px" alt="Logo" height="auto" />
+      <img src="/public/images/BW.png" width="150px" alt="Logo" height="auto" />
     </div>
     <nav class="top_menu">
       <ul>
@@ -29,10 +29,10 @@
     <img src="/public/images/mobile-phone.png" alt="Phone" />
     </a> 
     <a href="https://github.com/BhimashankarWagalgave" target="_blank" title="GitHub">
-      <img src="\public\images\github.png" alt="GitHub" />
+      <img src="/public/images/github.png" alt="GitHub" />
     </a>
     <a href="https://www.linkedin.com/in/wagalgave" target="_blank" title="LinkedIn">
-      <img src="\public\images\message.png" alt="LinkedIn" />
+      <img src="/public/images/message.png" alt="LinkedIn" />
     </a>
     <a href="wagalgavebhimashankar@gmail.com" title="Email">
       <img src="/public/images/email.png" alt="Email" />
@@ -43,7 +43,7 @@
 
   <section class="home" id="home">
   <div class="home-image">
-    <img src="\public\images\1.jpg" alt="My Photo">
+    <img src="/public/images/1.jpg" alt="My Photo">
   </div>
   <div class="home-about">
   <h2>Welcome to my
@@ -151,8 +151,7 @@ Portfolio!</h2>
 
   <div class="experience-timeline">
 
-    <!-- Experience 1 -->
-   <div class="experience-item">
+    <div class="experience-item">
       <div class="exp-icon">🛠️</div>
       <div class="exp-details">
         <h3>Application Developer <span>| Parallel Learning Pvt. Ltd.</span></h3>
@@ -169,7 +168,6 @@ Portfolio!</h2>
       </div>
     </div>
 
-    <!-- Experience 2 -->
     <div class="experience-item">
       <div class="exp-icon">🌐</div>
       <div class="exp-details">
@@ -189,18 +187,15 @@ Portfolio!</h2>
 <section class="projects-section" id="projects">
   <h2>🧩 Projects</h2>
 
-  <!-- Academic Projects -->
   <div class="project-category">
     <h3>📘 Academic Projects</h3>
     <div class="project-grid">
 
-      <!-- Student Management System -->
       <div class="project-card" onclick="openModal('modal-student')">
         <img src="/public/images/sms.png" alt="Student Management System"  width="6cm" height="auto">
         <div class="project-title">Student Management System</div>
       </div>
 
-      <!-- 3D Wall Clock -->
       <div class="project-card" onclick="openModal('modal-clock')">
         <img src="/public/images/clock.jpg" alt="3D Wall Clock" width="6cm" height="auto">
         <div class="project-title">3D Wall Clock With Dynamic<br> Time Display</div>
@@ -209,23 +204,19 @@ Portfolio!</h2>
     </div>
   </div>
 
-  <!-- Full-Time Projects -->
   <div class="project-category">
     <h3>💼 Full-Time Projects</h3>
     <div class="project-grid">
 
-      <!-- LMS -->
       <div class="project-card" onclick="openModal('modal-lms')">
         <img src="/public/images/lms.png" alt="LMS Project" width="6cm" height="auto">
         <div class="project-title">Learning Management System</div>
       </div>
 
-      <!-- Cutting Machine Tracker -->
       <div class="project-card" onclick="openModal('modal-tracker')">
         <img src="/public/images/cutting.png" alt="Cutting Machine Tracker" width="6cm" height="auto">
         <div class="project-title">Cutting Machine Tracker</div>
       </div>
-      <!-- Cutting Machine Tracker -->
       <div class="project-card" onclick="openModal('modal-unity')">
         <img src="/public/images/vrdevelopment.png" alt="VR Development Project" width="6cm" height="auto">
         <div class="project-title">VR Development for Work at Height Training</div>
@@ -234,7 +225,6 @@ Portfolio!</h2>
     </div>
   </div>
 
-  <!-- Modal: Student Management -->
   <div id="modal-student" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal('modal-student')">&times;</span>
@@ -257,7 +247,6 @@ Portfolio!</h2>
     </div>
   </div>
 
-  <!-- Modal: 3D Clock -->
   <div id="modal-clock" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal('modal-clock')">&times;</span>
@@ -279,7 +268,6 @@ Portfolio!</h2>
     </div>
   </div>
 
-  <!-- Modal: LMS -->
   <div id="modal-lms" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal('modal-lms')">&times;</span>
@@ -301,7 +289,6 @@ Portfolio!</h2>
     </div>
   </div>
 
-  <!-- Modal: Cutting Machine Tracker -->
   <div id="modal-tracker" class="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal('modal-tracker')">&times;</span>
@@ -376,17 +363,16 @@ Portfolio!</h2>
     <img src="/public/images/mobile-phone.png" alt="Phone" />
     </a> 
     <a href="https://github.com/BhimashankarWagalgave" target="_blank" title="GitHub">
-      <img src="\public\images\github.png" alt="GitHub" />
+      <img src="/public/images/github.png" alt="GitHub" />
     </a>
     <a href="https://www.linkedin.com/in/wagalgave" target="_blank" title="LinkedIn">
-      <img src="\public\images\message.png" alt="LinkedIn" />
+      <img src="/public/images/message.png" alt="LinkedIn" />
     </a>
     <a href="wagalgavebhimashankar@gmail.com" title="Email">
-      <img src="\public\images\email.png" alt="Email" />
+      <img src="/public/images/email.png" alt="Email" />
     </a>
   </div>
 
-  <!-- Contact form -->
   <form action="https://formspree.io/f/xnnzyogj" method="POST" class="contact-form">
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
@@ -414,13 +400,13 @@ Portfolio!</h2>
     <img src="/public/images/mobile-phone.png" alt="Phone" />
     </a> 
     <a href="https://github.com/BhimashankarWagalgave" target="_blank" title="GitHub">
-      <img src="\public\images\github.png" alt="GitHub" />
+      <img src="/public/images/github.png" alt="GitHub" />
     </a>
     <a href="https://www.linkedin.com/in/wagalgave" target="_blank" title="LinkedIn">
-      <img src="\public\images\message.png" alt="LinkedIn" />
+      <img src="/public/images/message.png" alt="LinkedIn" />
     </a>
     <a href="wagalgavebhimashankar@gmail.com" title="Email">
-      <img src="\public\images\email.png" alt="Email" />
+      <img src="/public/images/email.png" alt="Email" />
     </a>
   </div>
 </footer>
